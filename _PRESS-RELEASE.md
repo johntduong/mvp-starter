@@ -18,27 +18,36 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  Is this site down?
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  The product is made for users who want a way to verify if a website they are trying to visit is actually down for everyone else or just them.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  A website that lets users check if another website they want to visit is down for everyone else or just them. The site also lets you create an account and add a list of sites that you frequently visit.
 
 ## Problem ##
   > Describe the problem your product solves.
+  The product makes it easy for users to verify if the site they are attempting to visit is actually down or not.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  Users can enter a URL and know right away if the site is down. They can also create an account and create a list of sites so they don't have to enter them every time.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  No more checking twitter or texting your friends to see if a website is down.
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  You simply enter a URL and press submit or hit enter.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  In two seconds, I can find out if a website is down.
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  Visit the site and enter any URL to get started.
