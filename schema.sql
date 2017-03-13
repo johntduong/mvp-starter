@@ -1,13 +1,13 @@
-DROP DATABASE IF EXISTS test;
+DROP DATABASE IF EXISTS history;
 
-CREATE DATABASE test;
+CREATE DATABASE history;
 
-USE test;
+USE history;
 
-CREATE TABLE items (
+CREATE TABLE websites (
   id int NOT NULL AUTO_INCREMENT,
-  quantity integer NOT NULL,
-  description varchar(50) NOT NULL,
+  url varchar(200) NOT NULL UNIQUE,
+  status varchar(50) NOT NULL,
   PRIMARY KEY (ID)
 );
 

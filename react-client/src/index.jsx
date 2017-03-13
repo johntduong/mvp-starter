@@ -1,36 +1,32 @@
 import React from 'react';
+import { render } from 'react-dom';
+import { BrowserRouter, Match, Miss } from 'react-router';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import List from './components/List.jsx';
+import Form from './components/Form';
+import NotFound from './components/NotFound';
 
-class App extends React.Component {
+class Root extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { 
-      items: []
-    }
   }
 
-  componentDidMount() {
-    $.ajax({
-      url: '/items', 
-      success: (data) => {
-        this.setState({
-          items: data
-        })
-      },
-      error: (err) => {
-        console.log('err', err);
-      }
-    });
-  }
-
-  render () {
-    return (<div>
-      <h1>Item List</h1>
-      <List items={this.state.items}/>
-    </div>)
+  render() {
+  	return (
+    <Form normal={'normal'} pass={'pass'} fail={'fail'} />
+    )
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+
+// const Root = () => {
+//   return (
+//     <BrowserRouter>
+//       <div>
+//         <Match exactly pattern="/" component={Form} />
+//       </div>
+//     </BrowserRouter>
+//   )
+// }
+
+render(<Root/>, document.querySelector('#app'));
