@@ -14,12 +14,8 @@ connection.connect(function(err) {
 });
 
 var selectAll = function(callback) {
-  connection.query('SELECT * FROM websites', function(err, results, fields) {
-    if(err) {
-      callback(err, null);
-    } else {
-      callback(null, results);
-    }
+  connection.query('SELECT * FROM websites', function(err, rows) {
+    callback(err, rows);
   });
 };
 

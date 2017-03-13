@@ -4,7 +4,6 @@ import { BrowserRouter, Match, Miss } from 'react-router';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import Form from './components/Form';
-import NotFound from './components/NotFound';
 
 class Root extends React.Component {
   constructor(props) {
@@ -17,16 +16,5 @@ class Root extends React.Component {
     )
   }
 }
-
-
-// const Root = () => {
-//   return (
-//     <BrowserRouter>
-//       <div>
-//         <Match exactly pattern="/" component={Form} />
-//       </div>
-//     </BrowserRouter>
-//   )
-// }
 
 render(<Root/>, document.querySelector('#app'));
